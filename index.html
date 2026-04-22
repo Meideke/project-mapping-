@@ -850,6 +850,13 @@
   object-fit: cover;
   z-index: -2;
   pointer-events: none;
+
+}
+    #bg-blur{
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  pointer-events: none;
   background: rgba(0, 0, 0, 0);
   backdrop-filter: blur(4px);
   -webkit-backdrop-filter: blur(10px);
@@ -867,7 +874,7 @@
 
 
   
-
+ <div id="bg-blur"></div>
   <div id="cursor"></div>
   <!-- <div class="orb orb1"></div>
   <div class="orb orb2"></div>
